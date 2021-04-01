@@ -1,0 +1,109 @@
+path
+cd Kuliah
+cd portal-mpm\
+git add documentation\
+cd srce
+git starus
+gir rm website/routes/repeatorder.js
+git rm website/routes/repeatorder.js
+cd website\
+cd views\
+cd apps
+lg
+rm monitoringrepeatorder.jade 
+cd routes\
+ls
+rm repeatorder.js 
+ps -ef
+ps -ef | grep nodemon
+ps -ef | grep 3000
+ps -ef | grep code
+git commit -m 1
+hit status
+git commit -a
+git commit -m 2
+git push -o origin master
+git add documentation/
+git commit -m 3
+git push documentation/
+git push documentation
+git add src/
+git checkout src/
+git add scr
+git STATUS
+git commit -m  9
+cd./
+cd webste
+ced website
+git commit -m 5
+GIT STATUS
+git commit -m9
+cd cc
+git staus
+git commit -m 7
+gti add src
+git push-u origin master
+git commit -m 8
+git push -u originmaster
+git commit -m 9
+git commit -m 6
+git add sc
+git commit -m 10
+git commit -m 11
+git commit -m 12
+git commit -m 14
+git commit -m 15
+cd sr
+cd webiste
+git add website
+git commit -m 16
+git add sr
+git commit -m 17
+git git commit -m 18
+gti status
+ggit status
+git checkout src
+git commit -m 19
+git commit -m 18
+git commit -m 20
+push -u origin master
+git add what to do.txt
+git add .txt
+git add *.txt
+git commit -m 23
+git commit -m 25
+git commit -m 26
+git commit -m 50
+cd portsl-mpm
+git commit -m 31
+cd webstie
+git commit -m uwuu
+cd ,,
+git add documentatin
+git commit -m uwuwuwu
+git satus
+git status
+git add documentation
+git commit -m ehehe
+git push -u origin master
+cd..
+cd web
+git clone https://github.com/sluvie/portal-mpm.git
+cd Kerjaaa
+cd mpm-motor
+CD ..
+cd websitw
+cd api
+cd Kerjaa
+cd portal-mpm
+git clone https://github.com/jessicanurgoho/procurement.git
+git add docs
+git add src
+git pull
+cd sr 
+cpde .
+cd ..
+cd procurement
+cd src
+cd website
+code .

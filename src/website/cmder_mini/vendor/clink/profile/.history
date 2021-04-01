@@ -1,0 +1,6 @@
+cd ..
+cd portal-mpm
+git pull
+cd src
+cd website
+code .

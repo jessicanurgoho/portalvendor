@@ -1,0 +1,1 @@
+var statuskantor = ['Milik Sendiri', 'Kontrak']

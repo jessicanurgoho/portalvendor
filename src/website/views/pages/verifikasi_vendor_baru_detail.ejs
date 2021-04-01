@@ -1,0 +1,262 @@
+<body>
+    <!-- Include scripts -->
+    <% include ../partials/scripts %>
+  <!-- Sidenav -->
+  <% include ../partials/sidebar %>
+  <!-- Main content -->
+  <div class="main-content">
+    <!-- Top navbar -->
+    <% include ../partials/navbar %>
+    <!-- Header -->
+    <% include ../partials/header %>
+    <!-- Page content -->
+    <div class="container-fluid mt--8">
+      <!-- Table -->
+      <div class="row">
+        <div class="col">
+          <div class="card shadow">
+            <div class="card-header bg-transparent">
+              <h2 class="judul">Detail Vendor</h2>
+            </div>
+            <div class="luar">
+              
+              <form id="form" method="post" action="" enctype="multipart/form-data">
+                <div class="dx-fieldset">
+                    <div class="dx-field">
+                        <div class="dx-field-label">Kode Perusahaan :</div>
+                        <div class="dx-field-value" id="kode-perusahaan"></div>
+                    </div>
+                    <div class="dx-field">
+                        <div class="dx-field-label">Grup Produk :</div>
+                        <div class="dx-field-value">
+                          <div id="grup-produk"></div>
+                        </div>
+                    </div>
+                    <div class="dx-field">
+                      <div class="dx-field-label">Titel :</div>
+                      <div class="dx-field-value">
+                        <div id="titel"></div>
+                      </div>
+                    </div>
+                    <div class="dx-field">
+                      <div class="dx-field-label">Grup Vendor :</div>
+                      <div class="dx-field-value">
+                        <div id="grup-vendor"></div>
+                      </div>
+                    </div>
+                    <div class="dx-field">
+                      <div class="dx-field-label">Kode Kategori :</div>
+                      <div class="dx-field-value">
+                        <div id="kode-kategori"></div>
+                      </div>
+                    </div>
+                    <div class="dx-field">
+                      <div class="dx-field-label">Jenis Usaha :</div>
+                      <div class="dx-field-value">
+                        <div id="jenis-usaha"></div>
+                      </div>
+                    </div>
+                    <div class="dx-field">
+                      <div class="dx-field-label">Canvassing :</div>
+                      <div class="dx-field-value">
+                        <div id="canvassing"></div>
+                      </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="dx-fieldset">
+                  <div class="dx-fieldset-header">Address Data</div>
+                  <div class="dx-field">
+                    <div class="dx-field-label">Nama Perusahaan / Perorangan :</div>
+                    <div class="dx-field-value" id="nama-perusahaan"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Alamat :</div>
+                    <div class="dx-field-value" id="alamat"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Kota :</div>
+                  <div class="dx-field-value" id="kota"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">PO BOX :</div>
+                  <div class="dx-field-value" id="po-box"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Kode Pos :</div>
+                  <div class="dx-field-value" id="kode-pos"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Provinsi :</div>
+                  <div class="dx-field-value" id="provinsi"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Negara :</div>
+                  <div class="dx-field-value" id="negara"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Status Kantor :</div>
+                  <div class="dx-field-value" id="status-kantor"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Berdiri Sejak :</div>
+                  <div class="dx-field-value" id="berdiri-sejak"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Total Karyawan :</div>
+                  <div class="dx-field-value" id="total-karyawan"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Fax :</div>
+                  <div class="dx-field-value" id="fax"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Telp :</div>
+                  <div class="dx-field-value" id="telp"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Ext :</div>
+                  <div class="dx-field-value" id="ext"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Email :</div>
+                  <div class="dx-field-value" id="email"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Nama Direktur :</div>
+                  <div class="dx-field-value" id="nama-direktur"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Nama Sales :</div>
+                  <div class="dx-field-value" id="nama-sales"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">No Telp Sales :</div>
+                  <div class="dx-field-value" id="no-telp-sales"></div>
+                </div>
+              </div>
+              <hr>
+
+              <div class="dx-fieldset">
+                <div class="dx-fieldset-header">Pabrik / Gudang (Jika ada)</div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Alamat :</div>
+                  <div class="dx-field-value" id="alamat-gudang"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Kota :</div>
+                  <div class="dx-field-value" id="kota-gudang"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Kode Pos :</div>
+                  <div class="dx-field-value" id="kode-pos-gudang"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Provinsi :</div>
+                  <div class="dx-field-value" id="provinsi-gudang"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Negara :</div>
+                  <div class="dx-field-value" id="negara-gudang"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Status Kantor :</div>
+                  <div class="dx-field-value" id="status-kantor-gudang"></div>
+                </div>
+              </div>
+              <hr>
+
+              <div class="dx-fieldset">
+                <div class="dx-fieldset-header">Account Data</div>
+                <div class="dx-field">
+                  <div class="dx-field-label">No Rekening :</div>
+                  <div class="dx-field-value" id="no-rekening"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Nama Pemilik Rekening :</div>
+                  <div class="dx-field-value" id="nama-pemilik-rekening"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Nama Bank :</div>
+                  <div class="dx-field-value" id="nama-bank"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Kantor Cabang :</div>
+                  <div class="dx-field-value" id="kantor-cabang"></div>
+                </div>
+              </div>
+              <hr>
+
+              <div class="dx-fieldset">
+                <div class="dx-fieldset-header">Tax Data</div>
+                <div class="dx-field">
+                  <div class="dx-field-label">NPWP :</div>
+                  <div class="dx-field-value" id="npwp"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">PKP :</div>
+                  <div class="dx-field-value" id="pkp"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">No PKP (jika ada) :</div>
+                  <div class="dx-field-value" id="no-pkp"></div>
+                </div>
+              </div>
+
+              <div class="dx-fieldset">
+                <div class="dx-fieldset-header">Legal Data</div>
+                <div class="dx-field">
+                  <div class="dx-field-label">SIUP :</div>
+                  <div class="dx-field-value" id="siup"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">TDP :</div>
+                  <div class="dx-field-value" id="tdp"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">NIB :</div>
+                  <div class="dx-field-value" id="nib"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Surat Kuasa (jika ada) :</div>
+                  <div class="dx-field-value" id="surat-kuasa"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">KTP Direktur / Pemilik :</div>
+                  <div class="dx-field-value" id="ktp-direktur"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">KTP Penerima Kuasa (jika ada) :</div>
+                  <div class="dx-field-value" id="ktp-penerima-kuasa"></div>
+                </div>
+                <div class="dx-field">
+                  <div class="dx-field-label">Perjanjian / Kontrak :</div>
+                  <div class="dx-field-value" id="perjanjian-kontrak"></div>
+                </div>
+              </div>
+              <div class="dx-fieldset">
+                <div class="dx-field">
+                    <div class="dx-field-label">Perlu Pemeriksaan Legal :</div>
+                    <div class="dx-field-value" id="verifikasi-legal"></div>
+                </div>
+                <div class="dx-button" id="button" style="display: block"></div>
+              </div>
+            </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <% include ../partials/footer %>
+    </div>
+  </div>
+  
+  
+  
+  <!--scripts -->
+  <script src="/js/pages/verifikasi_vendor_baru_detail/form.js"></script>
+  <!-- <script src="/js/pages/kebutuhan_history/data.js"></script> -->
+  </body>
+  

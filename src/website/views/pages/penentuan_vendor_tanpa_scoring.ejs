@@ -1,0 +1,51 @@
+<body>
+    <!-- Include scripts -->
+    <% include ../partials/scripts %>
+  <!-- Sidenav -->
+  <% include ../partials/sidebar %>
+  <!-- Main content -->
+  <div class="main-content">
+    <!-- Top navbar -->
+    <% include ../partials/navbar %>
+    <!-- Header -->
+    <% include ../partials/header %>
+    <!-- Page content -->
+    <div class="container-fluid mt--8">
+      <!-- Table -->
+      <div class="row">
+        <div class="col">
+          <div class="card shadow">
+            <div class="card-header bg-transparent">
+              <h2 class="judul">Bidding Tanpa Scoring</h2>
+            </div>
+            <div class="luar">
+              <div class="dx-field">
+                <div class="dx-field-label">ID Kebutuhan</div>
+                <div class="dx-field-value">
+                    <div id="form"></div>
+                </div>
+              </div>
+              <hr>
+                <h4>Urutan Penawaran Berdasarkan Harga</h4>
+                <div id="dataGridatas"></div>
+                <br>
+                <hr>
+                <h4>Penentuan Vendor</h4>
+                <div id="dataGridbawah"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <% include ../partials/footer %>
+    </div>
+  </div>
+  
+  
+  
+  <!--scripts -->
+  <script src="/js/pages/penentuan_vendor_tanpa_scoring/form.js"></script>
+  <!-- <script src="/js/pages/kebutuhan_history/data.js"></script> -->
+  </body>
+  

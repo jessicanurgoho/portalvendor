@@ -1,0 +1,68 @@
+<body>
+    <!-- Include scripts -->
+    <% include ../partials/scripts %>
+  <!-- Sidenav -->
+  <% include ../partials/sidebar %>
+  <!-- Main content -->
+  <div class="main-content">
+    <!-- Top navbar -->
+    <% include ../partials/navbar %>
+    <!-- Header -->
+    <% include ../partials/header %>
+    <!-- Page content -->
+    <div class="container-fluid mt--8">
+      <!-- Table -->
+      <div class="row">
+        <div class="col">
+          <div class="card shadow">
+            <div class="card-header bg-transparent">
+              <h2 class="judul">Offer</h2>
+            </div>
+            <div class="luar">
+                <div id="dataGrid"></div>
+                <hr>
+                <form id="form" method="post" action="" enctype="multipart/form-data">
+                  <h3>Data Penawaran</h3>
+                  <div class="dx-fieldset">
+                      <div class="dx-field">
+                          <div class="dx-field-label">ID Penawaran :</div>
+                          <div class="dx-field-value" id="id-penawaran"></div>
+                          <!-- <p id="id-penawaran"></p> -->
+                      </div>
+                      <!-- <div class="dx-field">
+                        <div class="dx-field-label">ID Penawaran :</div>
+                        <p id="id-penawaran"></p>
+                    </div> -->
+                      <div class="dx-field">
+                          <div class="dx-field-label">ID Kebutuhan :</div>
+                          <div class="dx-field-value" id="id-kebutuhan"></div>
+                          <!-- <p id="id-kebutuhan"></p> -->
+                      </div>
+                      <div class="dx-field">
+                        <div class="dx-field-label">Harga Total :</div>
+                        <div class="dx-field-value" id="harga-total"></div>
+                    </div>
+                  </div>
+                  <div id="fileuploader-container">
+                      <div id="file-uploader"></div>
+                  </div>
+                  <div id="button"></div>
+              </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <% include ../partials/footer %>
+    </div>
+  </div>
+  
+  
+  
+  <!-- Individual scripts -->
+  <script src="/js/pages/vendor_kebutuhan_view/form.js"></script>
+  <script src="/js/pages/vendor_kebutuhan_view/data.js"></script>
+  </body>
+  
